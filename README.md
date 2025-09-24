@@ -1,20 +1,20 @@
 # Descrição geral do produto/protótipo
 O SMEE é um protótipo IoT que coleta dados de tensão, corrente e potência, transmitindo-os via ESP32 e rede Wi-Fi para um servidor central. Os dados são processados em Node-RED, armazenados em InfluxDB e exibidos em dashboards Grafana, com possibilidade de relatórios e alertas configuráveis.
 
-# 3 Contexto para Produto/Protótipo
+# Contexto para Produto/Protótipo
 
 O CamarVolt será constituído por dois elementos principais: o aparelho adaptador de tomada inteligente e o servidor de processamento e visualização de dados.
 
-3.1 Ambiente de uso
+## Ambiente de uso
 
 O aparelho será instalado diretamente em tomadas padrão brasileiro (2P+T), funcionando como um adaptador entre a tomada da parede e o dispositivo conectado.
 O protótipo foi projetado para uso em residências, onde o monitoramento de consumo de energia elétrica é relevante.
 
-3.2 Usuários
+## Usuários
 
 Residenciais: moradores que desejam acompanhar e reduzir gastos de energia.
 
-3.3 Fluxo de interação
+## Fluxo de interação
 
 O aparelho adaptador coleta informações de corrente elétrica através do sensor ZMCT103C, processa localmente com o módulo Wemos ESP8266 e transmite os dados via rede Wi-Fi.
 Os dados são enviados de forma segura para o servidor central, que pode estar hospedado localmente em um computador ou em uma plataforma em nuvem (AWS, Azure, Oracle, etc.).
@@ -22,18 +22,18 @@ O servidor recebe os dados, armazena-os em um banco de dados e processa os valor
 O dashboard web permite que os usuários visualizem consumo em tempo real, relatórios históricos e valores calculados de custo de energia.
 Presets regionais (como tarifa de energia elétrica em Joinville) podem ser utilizados, além de valores customizados fornecidos pelo usuário.
 
-3.4 Restrições físicas e de design
+## Restrições físicas e de design
 
 O adaptador não deve ultrapassar 10 cm em profundidade nem 5 cm em largura/altura em relação à tomada.
 O aparelho deve ser visualmente semelhante a adaptadores tradicionais, não podendo conter aparência ofensiva.
 Materiais e design devem reduzir risco de fogo e evitar choques elétricos.
 
-3.5 Plataformas de desenvolvimento
+## Plataformas de desenvolvimento
 
 Para prototipagem, serão utilizados equipamentos de soldagem, protoboard, cabos jumper e ferramentas de programação (ex.: VSCode + NodeJS).
 O firmware será gravado no ESP8266 através de cabo USB e ambiente de desenvolvimento compatível (Arduino IDE ou PlatformIO).
 
-3.6 Segurança e confiabilidade
+## Segurança e confiabilidade
 
 A comunicação entre aparelho e servidor deve ser criptografada.
 O servidor deve tratar múltiplos dispositivos simultaneamente, sem perda ou desintegração de dados.
@@ -121,3 +121,8 @@ Tanto o aparelho quanto o servidor devem operar continuamente, utilizando apenas
 ## Requisitos de Plataforma (Servidor)
 
 - Computador local dedicado ou instância em nuvem (AWS, Azure, Oracle, etc.).
+
+![requisitis](https://github.com/user-attachments/assets/e8cccc82-b551-4a7a-985f-19a88cd01d66)
+
+![BeFunky-design (2)](https://github.com/user-attachments/assets/b1df7a44-57b3-40e4-b041-5c83a6741fe9)
+
