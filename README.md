@@ -1,3 +1,6 @@
+#Alunos:
+Ricardo Falção, Maruan Biasi, Rafael Pereira, Ícaro Botelho, Gustavo Henrique
+
 # Descrição geral do produto/protótipo
 O SMEE é um protótipo IoT que coleta dados de tensão, corrente e potência, transmitindo-os via ESP32 e rede Wi-Fi para um servidor central. Os dados são processados em Node-RED, armazenados em InfluxDB e exibidos em dashboards Grafana, com possibilidade de relatórios e alertas configuráveis.
 
