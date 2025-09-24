@@ -129,3 +129,5 @@ Tanto o aparelho quanto o servidor devem operar continuamente, utilizando apenas
 
 ![BeFunky-design (2)](https://github.com/user-attachments/assets/b1df7a44-57b3-40e4-b041-5c83a6741fe9)
 
+<img width="721" height="451" alt="Diagrama sem nome drawio" src="https://github.com/user-attachments/assets/2d797ffc-6b43-4281-a80d-e05068ba3b38" />
+
