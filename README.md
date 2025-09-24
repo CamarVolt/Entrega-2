@@ -1,4 +1,4 @@
-#Alunos:
+# Alunos:
 Ricardo Falção, Maruan Biasi, Rafael Pereira, Ícaro Botelho, Gustavo Henrique
 
 # Descrição geral do produto/protótipo
