@@ -124,10 +124,3 @@ Tanto o aparelho quanto o servidor devem operar continuamente, utilizando apenas
 ## Requisitos de Plataforma (Servidor)
 
 - Computador local dedicado ou instância em nuvem (AWS, Azure, Oracle, etc.).
-
-![requisitos](https://github.com/user-attachments/assets/e8cccc82-b551-4a7a-985f-19a88cd01d66)
-
-![usecase](https://github.com/user-attachments/assets/b1df7a44-57b3-40e4-b041-5c83a6741fe9)
-
-<img width="721" height="451" alt="Diagrama sem nome drawio" src="https://github.com/user-attachments/assets/2d797ffc-6b43-4281-a80d-e05068ba3b38" />
-
